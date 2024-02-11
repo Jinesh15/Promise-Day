@@ -33,7 +33,6 @@ function noFunc() {
 
 function yesFunc() {
     document.getElementById("text").innerText = "Thank You for finally agreeing with Me\n I Love you too❤️";
-    document.getElementById("noButton").remove();
-    document.getElementById("yesButton").remove();
+    document.getElementById("buttons").remove();
     document.getElementById("image").classList.remove("image");    
 }
